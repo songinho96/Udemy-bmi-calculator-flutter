@@ -8,7 +8,6 @@ class BMICalculator extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData.dark().copyWith(
-          useMaterial3: true, // Material 3 활성화
           scaffoldBackgroundColor: Color(0xFF090F32),
           colorScheme: ColorScheme.fromSeed(
             seedColor: Color(0xFF090F32), // 전체적인 색상을 지정
